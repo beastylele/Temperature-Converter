@@ -1,2 +1,12 @@
 # Temperature-Convertor
-this is a temperature convertor created using html, css, and javascript
+
+This is a simple temperature convertor
+
+Languages Used:
+- HTML
+- CSS
+- Javascript
+
+@Aaliyah Thomas
+2/4/2024
+
