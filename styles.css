@@ -1,0 +1,73 @@
+header {
+    background-color: rgb(238, 62, 62);
+    padding:  2em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 1em;
+    font-size: 1em;
+}
+
+body {
+    background-color: #89dce3;
+}
+
+#convertor-box {
+    background-color: azure;
+    text-align: center;
+    margin-top: 4em;
+    margin-left: 35em;
+    margin-right: 35em;
+    padding-bottom: 3em ;
+    border-radius: 5em;
+}
+
+.text {
+    padding-top: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#temp-unit {
+    padding-top: 2em;
+}
+
+#conversion {
+    padding-top: 1em;
+}
+
+#button {
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 12em;
+    height: 3em;
+}
+
+#button_holder {
+    padding-top: 2em;
+}
+
+#conv_text {
+    padding-top: 1em;
+}
+
+#entered_temp {
+    padding: 2em;
+}
+
+#boxed-temp {
+    background-color: rgb(238, 62, 62);
+    width: max-content; 
+    margin: 0 auto; 
+    padding: 1em;
+    border-radius: 3em;
+}
+
+#converted_temp {
+    text-align: center;
+    margin: 0 auto; 
+    width: max-content; 
+    padding: 1em;
+    background-color: rgb(238, 62, 62);
+    border-radius: 3em;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

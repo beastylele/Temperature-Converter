@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head?>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Temperature Convertor</title>
+    </head>
+    <header>
+        <h1>Welcome to The Temperature Convertor</h1>
+
+    </header>
+    <body>
+        <main id="convertor-box">
+            <div>
+                <h2 class="text">Please enter a Temperature</h2>
+                <input type="number" id="entered-temp" name="temperature" >
+            </div>
+            <form id="temp-unit">
+                <input type="radio" name="temp" value="celsius">
+                <label>Celcius</label>
+                <input type="radio" name="temp" value="fahrenheit">
+                <label>Fahrenheit</label>
+                <input type="radio" name="temp" value="kelvin">
+                <label>Kelvin</label>
+            </form>
+            <div id="conversion"> 
+                <h2 class="text" id="conv_text">What would you like to convert to?</h2>
+                <form>
+                    <input type="radio" name="unit_need" value="celsius">
+                    <label>Celcius</label>
+                    <input type="radio" name="unit_need" value="fahrenheit">
+                    <label>Fahrenheit</label>
+                    <input type="radio" name="unit_need" value="kelvin">
+                    <label>Kelvin</label>
+                </form>
+            </div>
+            <div id="button_holder">
+                <button id="button">Convert</button>
+            </div>
+            <div>
+                <h2 class="text">Converted Temperature:</h2>
+            </div>
+            <div id="boxed-temp">
+                <p id="converted_temp">0</p>
+            </div>
+            </div>
+            
+        </main>
+        <script src="scripts.js"></script>
+    </body>
+</html>
