@@ -13,10 +13,11 @@ body {
 
 #convertor-box {
     background-color: azure;
+    margin-top: 4% ;
+    margin-bottom: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
     text-align: center;
-    margin-top: 4em;
-    margin-left: 35em;
-    margin-right: 35em;
     padding-bottom: 3em ;
     border-radius: 5em;
 }
@@ -70,12 +71,4 @@ body {
     border-radius: 3em;
     font-size: 2em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-@media only screen and (max-width: 600px) {
-    #convertor-box {
-        margin: 2em auto;
-        padding: 1em; 
-        border-radius: 2em;
-    }
 }
