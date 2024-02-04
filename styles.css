@@ -15,11 +15,11 @@ body {
     background-color: azure;
     margin-top: 4% ;
     margin-bottom: 1%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
     padding-bottom: 3em ;
-    border-radius: 5em;
+    border-radius: 2em;
 }
 
 .text {
