@@ -1,6 +1,6 @@
-# Temperature-Convertor
+# Temperature-Converter
 
-This is a simple temperature convertor
+This is a simple temperature converter
 
 Languages Used:
 - HTML
